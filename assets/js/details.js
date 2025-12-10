@@ -7,7 +7,7 @@ console.log(sites[id]);
 
 
 siteName.textContent = sites[id].Name;
-document.querySelector(".siteUrl").textContent = sites[id].Name;
-document.querySelector(".userName").textContent = sites[id].url;
-document.querySelector(".userEmail").textContent = sites[id].userName;
+document.querySelector(".siteUrl").textContent = sites[id].url;
+document.querySelector(".userName").textContent = sites[id].Name;
+document.querySelector(".userEmail").textContent = sites[id].userEmail;
 document.querySelector(".userPass").textContent = sites[id].userPass;
